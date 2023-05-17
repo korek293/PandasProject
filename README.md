@@ -1,5 +1,5 @@
 # PandasProject
-This project is a data analysis project using the pandas library. The goal is to analyze sales data for a company over the course of a year. The project involves several steps:
+This is a data project using the pandas library and matplotlib library for visualization. The goal is to analyze sales data for a company over the course of a year. The project involves several steps:
 
 Loading the data: The project starts by loading the sales data from a CSV file into a pandas DataFrame.
 
