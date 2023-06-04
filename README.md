@@ -5,7 +5,7 @@ Loading the data: The project starts by loading the sales data from a CSV file i
 
 Exploring the data: The data is explored to understand its structure, including data types, missing values, and any patterns or trends.
 
-Data cleaning: If there are any missing values in the data, they are handled by either removing the corresponding rows or filling in the missing values with appropriate methods.
+Data cleaning: If there are any missing values in the data, they are handled by either removing the corresponding rows or filling in the missing values with appropriate methods..asx
 
 Data analysis: Various data analysis operations are performed on the cleaned data. This may include grouping the data by month and calculating metrics such as total sales for each month.
 
