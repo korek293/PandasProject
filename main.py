@@ -10,7 +10,7 @@ sales_data = pd.DataFrame({
     'month': ['January', 'Fabruary', 'March', 'April', 'May'],
     'sales': [1000, 1500, 1200, 1800, 2000]
 })
-
+.as
 # Сохранение DataFrame в формате CSV с кодировкой utf-8
 sales_data.to_csv('sales_data.csv', encoding='utf-8', index=False)
 
