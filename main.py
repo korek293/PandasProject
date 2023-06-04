@@ -4,17 +4,17 @@ import matplotlib.pyplot as plt
 
 import pandas as pd
 
-# Создание DataFrame
+# Creating DataFrame
 sales_data = pd.DataFrame({
     'date': ['2022-01-01', '2022-01-02', '2022-01-03', '2022-01-04', '2022-01-05'],
     'month': ['January', 'Fabruary', 'March', 'April', 'May'],
     'sales': [1000, 1500, 1200, 1800, 2000]
 })
-.as
-# Сохранение DataFrame в формате CSV с кодировкой utf-8
+
+# Saving DataFrame in CSV format with utf-8 encoding
 sales_data.to_csv('sales_data.csv', encoding='utf-8', index=False)
 
-sales_data.dropna(inplace=True) # удаление строк с недостающими значениями
+sales_data.dropna(inplace=True) # deleting rows with missing values
 
 sales_by_month = sales_data.groupby('month')['sales'].sum()
 print(sales_by_month)
