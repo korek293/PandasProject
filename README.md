@@ -9,7 +9,7 @@ Data cleaning: If there are any missing values in the data, they are handled by 
 
 Data analysis: Various data analysis operations are performed on the cleaned data. This may include grouping the data by month and calculating metrics such as total sales for each month.
 
-Data visualization: The analyzed data is visualized using matplotlib or other visualization libraries. For example, a bar chart can be created to display total sales by month..
+Data visualization: The analyzed data is visualized using matplotlib or other visualization libraries. For example, a bar chart can be created to display total sales by month.
 
 ![image](https://github.com/korek293/PandasProject/assets/125805835/08efb23d-00b7-460b-9349-947e900b82fd)
 
